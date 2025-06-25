@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.valeriaantiquehotel.com/sitemap.xml
+
+# Optimized for search engines
+Crawl-delay: 1
+
+# Allow all important pages
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /fotoğraflar/
+
+# Block admin areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.log$
+Disallow: /backup/
+
+# SEO optimizations
+# Allow image indexing
+Allow: /fotoğraflar/*.jpg
+Allow: /fotoğraflar/*.jpeg
+Allow: /fotoğraflar/*.png
+Allow: /fotoğraflar/*.webp
